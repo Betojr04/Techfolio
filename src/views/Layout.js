@@ -5,6 +5,7 @@ import { Home } from "./Home.js";
 import { Footer } from "../components/Footer.js";
 import { Resume } from "./Resume.js";
 import { Project } from "./Projects.js";
+import { ContactPage } from "./ContactPage.js";
 
 const Layout = () => {
   return (
@@ -15,6 +16,7 @@ const Layout = () => {
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Project />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

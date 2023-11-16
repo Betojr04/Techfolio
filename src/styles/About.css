@@ -15,13 +15,14 @@
 
 .about-content h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: white;
   margin-bottom: 20px;
 }
 
 .about-content p {
+  font-weight: bolder;
   font-size: 1.2rem;
-  color: #555;
+  color: white;
   line-height: 1.6;
 }
 

@@ -18,7 +18,7 @@ export const Navbar = () => {
           <Link to="/resume">Resume</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
