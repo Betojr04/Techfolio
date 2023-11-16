@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Project.css";
 
 export const Projects = () => {
@@ -43,22 +44,11 @@ export const Projects = () => {
       </div>
 
       {/* project 3 */}
-      <div class="project-card">
-        <iframe
-          src="https://betowebdev-six.vercel.app/"
-          class="project-iframe"
-        ></iframe>
-        <div class="project-info">
-          <h3>Roofing</h3>
-          <p>Project description...</p>
-          <a
-            href="https://betowebdev-six.vercel.app/"
-            target="_blank"
-            class="live-link-btn"
-          >
-            View Live
-          </a>
-        </div>
+      <div className="more-projects">
+        <p>See more projects</p>
+        <Link>
+          <button>More Projects</button>
+        </Link>
       </div>
     </section>
   );

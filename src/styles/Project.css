@@ -10,6 +10,8 @@
   gap: 30px; /* Space between cards */
   padding: 50px 10%;
   justify-content: center; /* Center the cards horizontally */
+
+  padding-bottom: 4rem;
 }
 
 .project-card {
@@ -60,6 +62,36 @@
 
 .live-link-btn:hover {
   background-color: #e44d50; /* Slightly darker on hover */
+}
+
+/* More projects section */
+
+.more-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.more-projects p {
+  font-size: 1.2rem;
+  color: #666; /* Adjust color as needed */
+}
+
+.more-projects button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.more-projects button:hover {
+  background-color: #e44e4f;
 }
 
 /* Responsive adjustments */
