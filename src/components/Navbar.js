@@ -15,7 +15,7 @@ export const Navbar = () => {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#resume">Resume</a>
+          <Link to="/resume">Resume</Link>
         </li>
         <li>
           <a href="#contact">Contact</a>
