@@ -13,7 +13,7 @@ export const Projects = () => {
         ></iframe>
         <div class="project-info">
           <h3>Barber</h3>
-          <p>Project description...</p>
+          <p>Website for a local new barber in the Gilbert area.</p>
           <a
             href="https://barber-lake-nine.vercel.app/"
             target="_blank"
@@ -32,7 +32,7 @@ export const Projects = () => {
         ></iframe>
         <div class="project-info">
           <h3>Personal Trainer</h3>
-          <p>Project description...</p>
+          <p>Website for a new personal trainer in the Tempe area.</p>
           <a
             href="https://personal-training-web.vercel.app/"
             target="_blank"
