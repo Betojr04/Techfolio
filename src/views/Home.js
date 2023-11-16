@@ -8,10 +8,21 @@ import { Contact } from "../components/Contact";
 export const Home = () => {
   return (
     <main>
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
+      <div className="parallax-section parallax-1">
+        <Hero />
+      </div>
+
+      <div className="parallax-section parallax-3">
+        <About />
+      </div>
+
+      <div className="parallax-section parallax-2">
+        <Projects />
+      </div>
+
+      <div className="parallax-section parallax-4">
+        <Contact />
+      </div>
     </main>
   );
 };
