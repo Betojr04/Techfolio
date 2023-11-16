@@ -44,11 +44,18 @@ export const Projects = () => {
 
       {/* project 3 */}
       <div class="project-card">
-        <iframe src="YOUR_PROJECT_URL" class="project-iframe"></iframe>
+        <iframe
+          src="https://betowebdev-six.vercel.app/"
+          class="project-iframe"
+        ></iframe>
         <div class="project-info">
           <h3>Roofing</h3>
           <p>Project description...</p>
-          <a href="YOUR_LIVE_PROJECT_URL" target="_blank" class="live-link-btn">
+          <a
+            href="https://betowebdev-six.vercel.app/"
+            target="_blank"
+            class="live-link-btn"
+          >
             View Live
           </a>
         </div>
