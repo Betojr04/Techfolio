@@ -1,0 +1,57 @@
+import React from "react";
+import "../styles/Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+
+export const Footer = () => {
+  return (
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>About Beto</h3>
+          <p>
+            I'm a passionate web developer with a focus on modern, responsive
+            designs and user-friendly experiences.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="/projects">Projects</a>
+            </li>
+            <li>
+              <a href="/resume">Resume</a>
+            </li>
+            <li>
+              <a href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect with Me</h3>
+          <div className="social-icons">
+            <a
+              href="https://www.linkedin.com/in/albertovaltierrajr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="fa-icon" />
+            </a>
+            <a
+              href="https://github.com/Betojr04"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} className="fa-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
