@@ -12,7 +12,7 @@ export const Navbar = () => {
       </div>
       <ul class="navbar-nav">
         <li>
-          <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
           <Link to="/resume">Resume</Link>

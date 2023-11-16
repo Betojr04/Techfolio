@@ -6,6 +6,7 @@ import {
   faGithub,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -22,13 +23,13 @@ export const Footer = () => {
           <h3>Quick Links</h3>
           <ul>
             <li>
-              <a href="/projects">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="/resume">Resume</a>
+              <Link to="/resume">Resume</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>

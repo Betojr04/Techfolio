@@ -46,7 +46,7 @@ export const Projects = () => {
       {/* project 3 */}
       <div className="more-projects">
         <p>See more projects</p>
-        <Link>
+        <Link to="/projects">
           <button>More Projects</button>
         </Link>
       </div>

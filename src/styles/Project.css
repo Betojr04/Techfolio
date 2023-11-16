@@ -30,13 +30,13 @@
 
 .project-iframe {
   width: 100%;
-  height: 300px; /* Increased height */
+  height: 300px;
   border: none;
 }
 
 .project-info {
   padding: 20px;
-  flex-grow: 1; /* Make info take up the remaining space */
+  flex-grow: 1;
 }
 
 .project-info h3 {
@@ -56,31 +56,34 @@
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 20px;
-  text-decoration: none; /* Remove underline from link */
+  text-decoration: none;
   transition: background-color 0.3s;
 }
 
 .live-link-btn:hover {
-  background-color: #e44d50; /* Slightly darker on hover */
+  background-color: #e44d50;
 }
 
 /* More projects section */
-
 .more-projects {
+  grid-column: 1 / -1; /* Span from the first to the last grid line */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text */
   margin-top: 2rem;
+  width: 100%; /* Full width of the container */
+  padding: 0; /* Reset any padding */
 }
 
 .more-projects p {
   font-size: 1.2rem;
-  color: #666; /* Adjust color as needed */
+  color: #666;
 }
 
 .more-projects button {
   background-color: #ff5a5f;
+  align-self: center;
   color: white;
   border: none;
   padding: 0.7rem 1.5rem;
@@ -98,5 +101,11 @@
 @media (max-width: 768px) {
   .projects-section {
     grid-template-columns: 1fr;
+  }
+
+  .more-projects {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }
