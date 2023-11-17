@@ -44,12 +44,12 @@ export const Projects = () => {
       </div>
 
       {/* project 3 */}
-      <div className="more-projects">
+      {/* <div className="more-projects">
         <p>See more projects</p>
         <Link to="/projects">
           <button>More Projects</button>
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 };

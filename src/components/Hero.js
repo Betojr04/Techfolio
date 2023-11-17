@@ -8,9 +8,9 @@ export const Hero = () => {
       <div class="hero-content">
         <h1>Hello, I'm Beto</h1>
         <p>Web Developer | Designer | Tech Enthusiast</p>
-        <Link to="/projects">
+        <a href="#projects">
           <button class="cta-button">View My Work</button>
-        </Link>
+        </a>
       </div>
     </section>
   );
