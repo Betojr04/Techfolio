@@ -51,7 +51,7 @@ export const Tech = () => {
 
         <div className="tech-icon">
           <FontAwesomeIcon icon={faJava} />
-          <p>Java</p>
+          <p>Java (In progress)</p>
         </div>
       </div>
     </section>
