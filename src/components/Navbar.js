@@ -14,7 +14,7 @@ export const Navbar = () => {
       </div>
       <ul class="navbar-nav">
         <li>
-          <a href="#about">About Me</a>
+          <a href="#about">Spotlight</a>
         </li>
         <li>
           <a href="#projects">Projects</a>

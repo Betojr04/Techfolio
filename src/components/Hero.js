@@ -7,7 +7,10 @@ export const Hero = () => {
     <section class="hero-section">
       <div class="hero-content">
         <h1>Hello, I'm Beto</h1>
-        <p>Web Developer | Designer | Tech Enthusiast</p>
+        <p>
+          Full-Stack Engineer | Innovative Problem Solver | Technology
+          Strategist
+        </p>
         <a href="#projects">
           <button class="cta-button">View My Work</button>
         </a>
