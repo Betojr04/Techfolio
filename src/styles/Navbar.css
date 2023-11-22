@@ -3,20 +3,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #f0f8ff; /* Light sky blue background */
+  background-color: #f0f8ff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand a {
   font-size: 1.5rem;
-  color: #333; /* Dark text for contrast */
+  color: #333;
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar-brand .icon {
   font-size: 1.2rem;
-  color: #ff5a5f; /* A pop of color for the icon */
+  color: #ff5a5f;
 }
 
 .navbar-nav {
@@ -32,13 +32,13 @@
 
 .navbar-nav a {
   text-decoration: none;
-  color: #666; /* Slightly lighter text */
+  color: #666;
   font-size: 1rem;
   transition: color 0.3s;
 }
 
 .navbar-nav a:hover {
-  color: #ff5a5f; /* Color changes on hover for interactivity */
+  color: #ff5a5f;
 }
 
 @media (max-width: 768px) {
