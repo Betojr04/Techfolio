@@ -43,13 +43,29 @@ export const Projects = () => {
         </div>
       </div>
 
-      {/* project 3 */}
-      {/* <div className="more-projects">
-        <p>See more projects</p>
-        <Link to="/projects">
-          <button>More Projects</button>
-        </Link>
-      </div> */}
+      {/* project 2 */}
+      <div class="project-card">
+        <iframe
+          src=""
+          class="project-iframe"
+        ></iframe>
+        <div class="project-info">
+          <h3>FinanceBuddy</h3>
+          <p>Full-Stack Personal finance application powered with AI implementing Plaid API (currently in sandbox development)
+            <br></br>
+            <br></br>
+            Tech Stack: React, Python-Flask, Plaid API, SQLITE(development), Postgresql(production)
+          </p>
+          <a
+            href="https://github.com/Betojr04/FinanceBuddy"
+            target="_blank"
+            class="live-link-btn"
+          >
+            View Github Repo
+          </a>
+        </div>
+      </div>
+
     </section>
   );
 };
