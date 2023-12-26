@@ -17,22 +17,27 @@ export const Tech = () => {
     <section class="tech-section" id="tech">
       <h2>My Tech Stack</h2>
       <div class="tech-icons">
+        {/* HTML Icon */}
         <div class="tech-icon">
           <FontAwesomeIcon icon={faHtml5} />
           <p>HTML5</p>
         </div>
+        {/* CSS Icon */}
         <div class="tech-icon">
           <FontAwesomeIcon icon={faCss3Alt} />
           <p>CSS3</p>
         </div>
+        {/* Javascrip Icon */}
         <div class="tech-icon">
           <FontAwesomeIcon icon={faJsSquare} />
           <p>JavaScript</p>
         </div>
+        {/* React Icon */}
         <div class="tech-icon">
           <FontAwesomeIcon icon={faReact} />
           <p>React</p>
         </div>
+        {/* Node Icon */}
         <div class="tech-icon">
           <FontAwesomeIcon icon={faNodeJs} />
           <p>Node.js</p>

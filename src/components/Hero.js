@@ -1,20 +1,15 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/Hero.css";
+import React from 'react';
+import '../styles/Hero.css'; 
 
 export const Hero = () => {
   return (
-    <section class="hero-section">
-      <div class="hero-content">
-        <h1>Hello, I'm Beto</h1>
-        <p>
-          Full-Stack Engineer | Innovative Problem Solver | Technology
-          Strategist
-        </p>
-        <a href="#projects">
-          <button class="cta-button">View My Work</button>
-        </a>
-      </div>
-    </section>
+    <div className="hero-section">
+      <p className="hero-welcome">WELCOME</p>
+      <h1 className="hero-title">I am Beto,</h1>
+      <h1 className='hero-subtitle'>full stack developer based in Phoenix, Arizona.</h1>
+      <p className="hero-description">
+        Dedicated to crafting well-engineered and creative online solutions that empower my clients to achieve greater business success and online engagement.
+      </p>
+    </div>
   );
 };

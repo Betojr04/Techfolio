@@ -88,6 +88,32 @@ export const Projects = () => {
           </a>
         </div>
       </div>
+
+      {/* project 4 */}
+      <div class="project-card">
+        <iframe
+          src=""
+          class="project-iframe"
+        ></iframe>
+        <div class="project-info">
+          <h3>RiskyQuant</h3>
+          <p>a sophisticated risk management tool using Python Flask and React.
+This project leverages Yahoo Finance API for real-time data, integrating AI and ML for advanced analytics and
+risk predictions.It encompasses a broad spectrum of quantitative risk assessments and financial insights,
+showcasing my proficiency in fusing Python libraries with modern web technologies to create practical, datadriven applications for financial experts. 
+            <br></br>
+            <br></br>
+            Tech Stack: React, Python-Flask, Pandas, Numpy, Scipy, Matpilotlib, Yahoo-finance API, SQLITE(development), Postgresql(production), EmailJS, JWT, Hashlib, Jest, Pytest
+          </p>
+          <a
+            href="https://github.com/Betojr04/riskyquant"
+            target="_blank"
+            class="live-link-btn"
+          >
+            View Github Repo
+          </a>
+        </div>
+      </div>
     </section>
   );
 };

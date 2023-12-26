@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faGithub,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
@@ -15,8 +14,7 @@ export const Footer = () => {
         <div class="footer-about">
           <h3>About Beto</h3>
           <p>
-            I'm a passionate web developer with a focus on modern, responsive
-            designs and user-friendly experiences.
+            I'm a passionate Full-Stack developer.
           </p>
         </div>
         <div class="footer-links">
