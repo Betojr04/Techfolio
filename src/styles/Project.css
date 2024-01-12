@@ -2,12 +2,10 @@
 
 .projects-section {
   display: grid;
-
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   gap: 30px;
   padding: 50px 10%;
   justify-content: center;
-
   padding-bottom: 4rem;
 }
 
@@ -25,34 +23,44 @@
   transform: translateY(-10px);
 }
 
-.project-iframe {
+.project-image {
   width: 100%;
-  height: 300px;
-  border: none;
+  height: 250px; /* Larger height for impact */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 .project-info {
   padding: 20px;
-  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ensures full height utilization */
 }
 
 .project-info h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
+  font-size: 1.8rem; /* Larger for impact */
+  color: #333; /* Darker for emphasis */
+  margin-bottom: 10px;
 }
 
 .project-info p {
   font-size: 1rem;
   color: #666;
+  flex-grow: 1; /* Allows the text to expand */
 }
 
 .live-link-btn {
-  display: inline-block;
+  align-self: start; /* Align button to the start */
+  margin-top: 15px; /* Space above the button */
   background-color: #ff5a5f;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
-  margin-top: 20px;
   text-decoration: none;
   transition: background-color 0.3s;
 }
@@ -61,7 +69,6 @@
   background-color: #e44d50;
 }
 
-/* More projects section */
 .more-projects {
   grid-column: 1 / -1;
   display: flex;
@@ -69,8 +76,6 @@
   align-items: center;
   text-align: center;
   margin-top: 2rem;
-  width: 100%;
-  padding: 0;
 }
 
 .more-projects p {
@@ -80,7 +85,6 @@
 
 .more-projects button {
   background-color: #ff5a5f;
-  align-self: center;
   color: white;
   border: none;
   padding: 0.7rem 1.5rem;
@@ -98,6 +102,18 @@
 @media (max-width: 768px) {
   .projects-section {
     grid-template-columns: 1fr;
+  }
+
+  .project-image {
+    height: 200px;
+  }
+
+  .project-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-info p {
+    font-size: 0.9rem;
   }
 
   .more-projects {

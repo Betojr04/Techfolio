@@ -12,18 +12,18 @@ export const About = () => {
       <div className="about-content">
         <h2>Spotlight</h2>
         <p>
-          Hi, I'm Beto, a Full Stack Developer based in Phoenix. My expertise
-          lies in Python, React, Node.js, and I'm currently expanding into Java.
-          <br></br>
-          <br></br>I bring data to life with Pandas, Numpy, SciPy, and
-          Matplotlib, and adeptly manage databases using MySQL and PostgreSQL.
-          My approach blends technical skill with a passion for life, from
-          soccer fields to tech forums.
+          Hi, I'm Beto, a Full Stack Developer based in Phoenix. My technical
+          toolkit includes Python, React, Node.js, and I'm diving into Java
+          through a Spring Boot project.
           <br></br>
           <br></br>
-          Whether crafting freelance projects or contributing to a team, I merge
-          coding skills with my vibrant personality to deliver innovative
-          solutions and engaging user experiences.
+          I'm adept at managing databases with MySQL and PostgreSQL, bringing a
+          balance of analytical skills and creative energy to each project.
+          <br></br>
+          <br></br>
+          Whether I'm developing freelance projects or collaborating within a
+          team, I integrate my coding expertise with a dynamic personality to
+          create impactful solutions and compelling user experiences.
         </p>
       </div>
     </section>
