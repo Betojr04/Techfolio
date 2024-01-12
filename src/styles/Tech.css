@@ -1,0 +1,50 @@
+.tech-section {
+  text-align: center;
+  padding: 50px 10%;
+}
+
+.tech-section h2 {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tech-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.tech-icon svg { 
+  font-size: 4rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.tech-icon p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.tech-icon:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .tech-icons {
+    justify-content: space-around;
+  }
+
+  .tech-icon {
+    margin-bottom: 20px;
+  }
+}

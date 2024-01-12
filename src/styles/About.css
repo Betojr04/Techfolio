@@ -1,0 +1,48 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 10%;
+}
+
+.about-content {
+  width: 50%;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  width: 40%;
+  display: flex;
+  justify-content: start;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1; 
+  text-align: justify; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image, .about-content {
+    width: 100%;
+  }
+}

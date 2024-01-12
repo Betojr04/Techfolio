@@ -1,0 +1,120 @@
+/* Hero.css */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; /* Distributes space between items */
+  align-items: flex-start;
+  height: 100vh;
+  background-color: white;
+  padding: 0 15px;
+  text-align: left;
+}
+
+.hero-welcome {
+  font-size: 4rem;
+  color: lightgrey;
+  align-self: flex-start;
+  margin-bottom: 0.5rem; /* Adjust as needed to space from top */
+  padding-left: 9rem;
+  font-weight: bold;
+  opacity: 45%;
+}
+
+.hero-title {
+  font-size: 3.6rem;
+  color: black;
+  margin-bottom: 0; /* Remove space between title and subtitle */
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 9rem;
+}
+
+.hero-subtitle {
+  font-size: 3.6rem;
+  color: black;
+  margin-top: 0; /* Remove space between title and subtitle */
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 9rem;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  color: gray;
+  text-align: center;
+  max-width: 80%;
+  align-self: center; /* Center the description */
+  margin-bottom: 20px; /* Adjust as needed for space at bottom */
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Call to action button */
+.cta-button {
+  padding: 10px 20px;
+  background-color: #ff5a5f;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-left: 3rem; 
+}
+
+.cta-button:hover {
+  background-color: #e14e50;
+  transform: translateY(-3px);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Applying animation to elements with a delay */
+.hero-title,
+.hero-subtitle,
+.hero-description,
+.hero-mission,
+.cta-button {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.hero-title {
+  animation-delay: 0.3s;
+}
+
+.hero-subtitle {
+  animation-delay: 0.4s;
+}
+
+.hero-description {
+  animation-delay: 0.5s;
+}
+
+.hero-mission {
+  animation-delay: 0.6s;
+}
+
+.cta-button {
+  animation-delay: 0.9s;
+}
+
+@media (max-width: 768px) {
+  .hero-welcome,
+  .hero-title,
+  .hero-subtitle {
+    padding-left: 1rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+    text-align: left;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
