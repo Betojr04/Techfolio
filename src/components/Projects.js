@@ -53,11 +53,6 @@ export const Projects = () => {
             alt={project.title}
             className="project-image"
           />
-          <iframe
-            src={project.iframeSrc}
-            className="project-iframe"
-            title={project.title}
-          ></iframe>
           <div className="project-info">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
