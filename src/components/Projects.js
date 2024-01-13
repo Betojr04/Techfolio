@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Project.css";
+import barber from "../assets/barber.png";
+import fitness from "../assets/fitness.png";
 
 export const Projects = () => {
   const projectData = [
@@ -9,14 +11,14 @@ export const Projects = () => {
       description: "Website for barbers using React and EmailJS, ",
       link: "https://barber-lake-nine.vercel.app/",
       iframesrc: "https://barber-lake-nine.vercel.app/",
-      image: "https://i.imgur.com/4K0VX6n.png",
+      image: barber,
     },
     {
       title: "Personal Trainer",
       description: "Website for personal trainers using ReactJS, and EmailJS.",
       link: "https://personal-training-web.vercel.app/",
       iframesrc: "https://personal-training-web.vercel.app/",
-      image: "https://i.imgur.com/4K0VX6n.png",
+      image: fitness,
     },
     {
       title: "FinanceBuddy",
