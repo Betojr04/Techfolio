@@ -62,6 +62,28 @@ export const Contact = () => {
 
   return (
     <section className="contact-section" id="contact">
+      <div className="contact-card">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out for collaborations or just a friendly chat:
+        </p>
+        <ul>
+          <li>Email: your-email@example.com</li>
+          <li>
+            GitHub: <a href="https://github.com/Betojr04">Betojr04</a>
+          </li>
+          <li>
+            LinkedIn:{" "}
+            <a href="https://www.linkedin.com/in/albertovaltierrajr">
+              Alberto Valtierra Jr
+            </a>
+          </li>
+        </ul>
+        <p>
+          If you have a project, a website need, or a role that aligns with my
+          skills, I'd love to hear from you!
+        </p>
+      </div>
       <div className="form-container">
         <form className="contact-form" ref={form} onSubmit={submitForm}>
           <input
@@ -91,9 +113,6 @@ export const Contact = () => {
             Send Message
           </button>
         </form>
-      </div>
-      <div className="visual-effect-container">
-        <h1>Reach out and let's be friends!</h1>
       </div>
     </section>
   );

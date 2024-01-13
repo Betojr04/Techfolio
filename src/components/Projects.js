@@ -42,6 +42,7 @@ export const Projects = () => {
         "Tracker for your personal finances, creat accounts, update balances, and view transaction. Generate reports on your spending habits, and view your net worth. Save your data between sessions and include authentication for security. Devling into this project to learn the ins and outs of Java before converting it into a full stack spingboot project",
       iframesrc: "https://github.com/Betojr04/personalFinanceTracker",
       image: "https://i.imgur.com/4K0VX6n.png",
+      link: "https://github.com/Betojr04/personalFinanceTracker",
     },
   ];
   return (

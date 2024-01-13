@@ -47,6 +47,23 @@
   margin-bottom: 15px;
 }
 
+/* Additional styles for button-styled links in project cards */
+.project-info a {
+  display: inline-block; /* Makes the link behave like a button */
+  padding: 10px 20px; /* Adds padding to the link */
+  background-color: #ff5a5f; /* Button background color */
+  color: white; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Removes underline from the link */
+  text-align: center; /* Center-aligns the text */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.project-info a:hover {
+  background-color: #e44d50; /* Slightly darker background on hover */
+  text-decoration: none; /* Ensures underline doesn't reappear on hover */
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .project-card {
