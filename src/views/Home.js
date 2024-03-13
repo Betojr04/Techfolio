@@ -9,23 +9,23 @@ import { Tech } from "../components/Tech";
 export const Home = () => {
   return (
     <main>
-      <div className="parallax-section parallax-1">
+      <div>
         <Hero />
       </div>
 
-      <div className="parallax-section parallax-3">
+      <div>
         <About />
       </div>
 
-      <div className="parallax-section parallax-5">
+      <div>
         <Tech />
       </div>
 
-      <div className="parallax-section parallax-2">
+      <div>
         <Projects />
       </div>
 
-      <div className="parallax-section parallax-4">
+      <div>
         <Contact />
       </div>
     </main>

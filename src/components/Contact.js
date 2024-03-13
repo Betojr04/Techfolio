@@ -23,6 +23,9 @@ export const Contact = () => {
 
   const submitForm = (e) => {
     e.preventDefault();
+    if (emailError) {
+      return;
+    }
     emailjs
       .sendForm(
         "service_aqzyxs7",
@@ -68,7 +71,12 @@ export const Contact = () => {
           Feel free to reach out for collaborations or just a friendly chat:
         </p>
         <ul>
-          <li>Email: your-email@example.com</li>
+          <li>
+            Email:{" "}
+            <a href="mailto:beto.fintech@outlook.com">
+              beto.fintech@outlook.com
+            </a>
+          </li>
           <li>
             GitHub: <a href="https://github.com/Betojr04">Betojr04</a>
           </li>

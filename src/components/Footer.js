@@ -1,22 +1,13 @@
 import React from "react";
 import "../styles/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
     <footer class="footer">
       <div class="footer-container">
-        <div class="footer-about">
-          <h3>About Beto</h3>
-          <p>
-            I'm a passionate Full-Stack developer.
-          </p>
-        </div>
         <div class="footer-links">
           <h3>Quick Links</h3>
           <ul>
