@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../styles/Project.css";
 // import barber from "../assets/barber.png";
 // import fitness from "../assets/fitness.png";

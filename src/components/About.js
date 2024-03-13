@@ -6,13 +6,13 @@ export const About = () => {
   return (
     <section className="about-section" id="about">
       <div className="about-image">
-        <img src={photo} alt="About Image" />
+        <img src={photo} alt="aboutMe" />
       </div>
 
       <div className="about-content">
         <h2>Spotlight</h2>
         <p>
-          Hi, I'm Beto, a Full Stack Developer based in Phoenix. My technical
+          Hi, I'm Beto, a Software Engineer based in Phoenix. My technical
           toolkit includes Python, React, Node.js, and I'm diving into Java
           through a Spring Boot project.
           <br></br>

@@ -2,14 +2,15 @@
 .contact-section {
   display: flex;
   justify-content: space-around;
-  align-items: start;
+  align-items: flex-start;
   padding: 50px 10%;
   gap: 20px;
 }
 
 .contact-card {
   background-color: #fff;
-  padding: 30px; /* Adjust padding as needed */
+  padding: 30px;
+  /* Adjust padding as needed */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 40%;
@@ -21,45 +22,56 @@
 
 .contact-card h2 {
   color: #333;
-  margin-bottom: 20px; /* Space below the title /
+  margin-bottom: 20px;
+  /* Space below the title /
 font-size: 2.2rem; / Adjust font size as needed /
 align-self: flex-start; / Aligns title to the start of the flex container */
 }
 
 .contact-card h2 {
   color: #333;
-  margin-bottom: 20px; /* Space below the title */
-  font-size: 2.2rem; /* Adjust font size as needed */
+  margin-bottom: 20px;
+  /* Space below the title */
+  font-size: 2.2rem;
+  /* Adjust font size as needed */
 }
 
 .contact-card p,
 .contact-card li {
   color: #666;
-  font-size: 1.2rem; /* Increased font size */
+  font-size: 1.2rem;
+  /* Increased font size */
   margin-bottom: 12px;
 }
 
 .contact-card a {
   color: #ff5a5f;
   text-decoration: none;
-  font-size: 1.2rem; /* Increased font size */
+  font-size: 1.2rem;
+  /* Increased font size */
 }
 
 /* Styling for the Form Container */
 .form-container {
-  width: 55%; /* Adjusted width */
+  width: 55%;
+  /* Adjusted width */
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align items */
+  align-items: center;
+  /* Center align items */
 }
 
 .contact-form {
   max-width: 600px;
-  width: 100%; /* Ensure form uses full width of container */
+  width: 100%;
+  /* Ensure form uses full width of container */
   margin: 0 auto;
-  display: flex; /* Set the form to use flexbox */
-  flex-direction: column; /* Stack form elements vertically */
-  align-items: center; /* Align form elements centrally */
+  display: flex;
+  /* Set the form to use flexbox */
+  flex-direction: column;
+  /* Stack form elements vertically */
+  align-items: center;
+  /* Align form elements centrally */
 }
 
 .contact-form input,
@@ -90,12 +102,15 @@ align-self: flex-start; / Aligns title to the start of the flex container */
   background-color: #ff5a5f;
   color: white;
   border: none;
-  padding: 12px 24px; /* Adjusted padding */
+  padding: 12px 24px;
+  /* Adjusted padding */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-top: 10px; /* Add some space above the button */
-  align-self: center; /* Center the button */
+  margin-top: 10px;
+  /* Add some space above the button */
+  align-self: center;
+  /* Center the button */
 }
 
 .submit-btn:hover {
@@ -109,11 +124,13 @@ align-self: flex-start; / Aligns title to the start of the flex container */
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensures overlay is above other elements */
+  z-index: 1000;
+  /* Ensures overlay is above other elements */
 }
 
 .success-card {
@@ -130,7 +147,8 @@ align-self: flex-start; / Aligns title to the start of the flex container */
 .success-card h2 {
   color: #333;
   margin-bottom: 15px;
-  font-size: 2rem; /* Adjust as needed */
+  font-size: 2rem;
+  /* Adjust as needed */
 }
 
 .success-card p {
@@ -159,6 +177,7 @@ align-self: flex-start; / Aligns title to the start of the flex container */
     flex-direction: column;
     align-items: center;
   }
+
   .contact-card,
   .form-container {
     width: 80%;
@@ -167,6 +186,7 @@ align-self: flex-start; / Aligns title to the start of the flex container */
 }
 
 @media (max-width: 768px) {
+
   .contact-form input,
   .contact-form textarea {
     padding: 10px;
