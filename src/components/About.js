@@ -24,6 +24,10 @@ export const About = () => {
           Whether I'm developing freelance projects or collaborating within a
           team, I integrate my coding expertise with a dynamic personality to
           create impactful solutions and compelling user experiences.
+          <br></br>
+          <br></br>
+          Currently, I'm learning Swift as I contribute to a health tech
+          startup, helping to build their iOS application.
         </p>
       </div>
     </section>
