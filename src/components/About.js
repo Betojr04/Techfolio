@@ -13,8 +13,7 @@ export const About = () => {
         <h2>Spotlight</h2>
         <p>
           Hi, I'm Beto, a Software Engineer based in Phoenix. My technical
-          toolkit includes Python, React, Node.js, and I'm diving into Java
-          through a Spring Boot project.
+          toolkit includes Python, React, and Node.js.
           <br></br>
           <br></br>
           I'm adept at managing databases with MySQL and PostgreSQL, bringing a
@@ -24,10 +23,6 @@ export const About = () => {
           Whether I'm developing freelance projects or collaborating within a
           team, I integrate my coding expertise with a dynamic personality to
           create impactful solutions and compelling user experiences.
-          <br></br>
-          <br></br>
-          Currently, I'm learning Swift as I contribute to a health tech
-          startup, helping to build their iOS application.
         </p>
       </div>
     </section>

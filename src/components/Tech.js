@@ -7,8 +7,7 @@ import {
   faJsSquare,
   faReact,
   faNodeJs,
-  faPython,
-  faJava,
+  faPython
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
@@ -52,11 +51,6 @@ export const Tech = () => {
         <div className="tech-icon">
           <FontAwesomeIcon icon={faDatabase} />
           <p>SQL/PostgreSQL</p>
-        </div>
-
-        <div className="tech-icon">
-          <FontAwesomeIcon icon={faJava} />
-          <p>Java (In progress)</p>
         </div>
       </div>
     </section>

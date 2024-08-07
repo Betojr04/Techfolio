@@ -12,21 +12,35 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  min-height: 300px; /* Adjust based on content */
+  min-height: 300px;
+  /* Adjust based on content */
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 
 .project-card:nth-child(even) {
-  flex-direction: row-reverse; /* Reverses the order for even projects */
+  flex-direction: row-reverse;
+  /* Reverses the order for even projects */
 }
 
-/* Styling for the project image */
-.project-image {
+/* Styling for the project iframe container */
+.iframe-container {
   width: 50%;
-  object-fit: cover;
-  height: 100%; /* Adjust as needed */
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /* Styling for the project information */
@@ -49,19 +63,29 @@
 
 /* Additional styles for button-styled links in project cards */
 .project-info a {
-  display: inline-block; /* Makes the link behave like a button */
-  padding: 10px 20px; /* Adds padding to the link */
-  background-color: #ff5a5f; /* Button background color */
-  color: white; /* Text color */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Removes underline from the link */
-  text-align: center; /* Center-aligns the text */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  display: inline-block;
+  /* Makes the link behave like a button */
+  padding: 10px 20px;
+  /* Adds padding to the link */
+  background-color: #ff5a5f;
+  /* Button background color */
+  color: white;
+  /* Text color */
+  border-radius: 5px;
+  /* Rounded corners */
+  text-decoration: none;
+  /* Removes underline from the link */
+  text-align: center;
+  /* Center-aligns the text */
+  transition: background-color 0.3s;
+  /* Smooth transition for hover effect */
 }
 
 .project-info a:hover {
-  background-color: #e44d50; /* Slightly darker background on hover */
-  text-decoration: none; /* Ensures underline doesn't reappear on hover */
+  background-color: #e44d50;
+  /* Slightly darker background on hover */
+  text-decoration: none;
+  /* Ensures underline doesn't reappear on hover */
 }
 
 /* Responsive adjustments */
@@ -74,7 +98,7 @@
     flex-direction: column;
   }
 
-  .project-image,
+  .iframe-container,
   .project-info {
     width: 100%;
   }

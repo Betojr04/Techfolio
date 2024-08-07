@@ -5,6 +5,8 @@
   padding: 1rem 2rem;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
 }
 
 .navbar-brand a {
@@ -17,6 +19,12 @@
 .navbar-brand .icon {
   font-size: 1.2rem;
   color: #ff5a5f;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .navbar-nav {
@@ -42,12 +50,59 @@
 }
 
 @media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
   .navbar-nav {
+    display: none;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+    animation: slideDown 0.3s ease-in-out;
+  }
+
+  .navbar-nav.open {
+    display: flex;
   }
 
   .navbar-nav li {
-    margin: 0.5rem 0;
+    margin: 0;
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+
+  .navbar-nav a {
+    padding: 1rem;
+    width: 100%;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .navbar-nav a:hover {
+    background-color: #f4f4f4;
+  }
+}
+
+/* Slide down animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
