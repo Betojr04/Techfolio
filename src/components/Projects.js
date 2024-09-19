@@ -10,6 +10,20 @@ export const Projects = () => {
         "Barbas Barbershop Website: A modern, user-friendly website designed to enhance the web presence of a local barbershop. It features an online booking system through Booksy and a gallery of styles to attract and engage clients. The project showcases a blend of traditional barbering and contemporary web design to reach a broader audience and streamline client interactions.",
       link: "https://barbas-barbershop.com/",
       iframesrc: "https://barbas-barbershop.com/"
+    },
+    {
+      title: "TragosCrafted",
+      description:
+        "Website for local private bartending business. This website contains a modern design with a user-friendly interface. It features client expectations timeline, contact form, and a services section. The project showcases a blend of traditional bartending and contemporary web design to reach a broader audience and streamline client interactions.",
+      link: "https://www.tragoscrafted.com/",
+      iframesrc: "https://www.tragoscrafted.com/"
+    },
+    {
+      title: "ScehdulingUI (In Progress)",
+      description:
+        "UI for scheduling service for businesses that require appointments. This project showcases a modern design with a user-friendly interface. It features a calendar, time slots, and a contact form. The project showcases a blend of traditional scheduling and contemporary web design to reach a broader audience and streamline client interactions.",
+      link: "https://schedulingui.vercel.app/",
+      iframesrc: "https://schedulingui.vercel.app/"
     }
   ];
 
